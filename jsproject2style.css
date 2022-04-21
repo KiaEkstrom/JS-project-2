@@ -131,11 +131,11 @@ th {
 		margin-right: auto;
 	}
 	#band-img {
-		max-width: 70%;
-		height: 150px;
+		max-width: 10%;
+		height: 230px;
 		border-radius: 50%;
 		background-color: #F5F5F5;
-		width: 150px;
+		width: 250px;
 		border: none;
 		cursor: pointer;
 		padding: 10px;
