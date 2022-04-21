@@ -4,7 +4,7 @@
 	since there is a specific JSON file for each album. These album functions are called "band_album_x". */
 	
 	
-	// Here are the event listeners which are connected to the band buttons with id's.
+	// Here are the event listeners which are connected to the band buttons with unique id's.
 	
 	document.getElementById("bc-btn").addEventListener("click", loadBC);
 	document.getElementById("må-btn").addEventListener("click", loadMå);

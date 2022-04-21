@@ -116,19 +116,3 @@ th {
 	color: white;
 }
 
-
-/*Responsive styles*/
-
-@media screen and (max-width: 850px) {  
-	
-	div {
-		width: 90%;
-		}
-	body {	
-		background-color: white;
-		width: 85%;
-		padding-right: 100px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-} 
