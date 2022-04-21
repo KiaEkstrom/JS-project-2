@@ -13,7 +13,7 @@
 	// Functions for the first band button, Blind Channel:
 
 function loadBC() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Blind+Channel&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Blind+Channel&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -34,7 +34,7 @@ function loadBC() {
 	// Function for getting the toptracks info (song name + amount of listeners), limited to 10
 	
 function tracksBC() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Blind+Channel&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Blind+Channel&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -67,7 +67,7 @@ function tracksBC() {
 	// Functions for the album infos	
 
 function albumsBC() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Violent+Pop&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Violent+Pop&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -105,7 +105,7 @@ function albumsBC() {
 }
 
 function bcAlbum2() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Blood+Brothers&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Blood+Brothers&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -140,7 +140,7 @@ function bcAlbum2() {
 }
 
 function bcAlbum3() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Revolutions&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Blind+Channel&album=Revolutions&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -179,7 +179,7 @@ function bcAlbum3() {
 	// Functions for the second band button, Måneskin:
 
 function loadMå() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Måneskin&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Måneskin&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -199,7 +199,7 @@ function loadMå() {
 // Function for getting the toptracks info (song name + amount of listeners), limited to 10
 
 function tracksMå() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Måneskin&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Måneskin&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -232,7 +232,7 @@ function tracksMå() {
 	// Functions for the album infos
 
 function albumsMå() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Teatro+D'Ira+-+Vol.I&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Teatro+D'Ira+-+Vol.I&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -271,7 +271,7 @@ function albumsMå() {
 }
 
 function måAlbum2() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Il+ballo+della+vita&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Il+ballo+della+vita&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -306,7 +306,7 @@ function måAlbum2() {
 }
 	
 function måAlbum3() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Chosen&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Måneskin&album=Chosen&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -345,7 +345,7 @@ function måAlbum3() {
 	// Functions for the third band button, Go_A:
 
 function loadGoA() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Go_A&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=Go_A&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -364,7 +364,7 @@ function loadGoA() {
 }
 
 function tracksGoA() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Go_A&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=artist.gettoptracks&artist=Go_A&limit=10&api_key=371f424b6c0bb12311c906a6da34260a%20&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -395,7 +395,7 @@ function tracksGoA() {
 }
 
 function albumsGoA() {
-	var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Go_A&album=%23Ідиназвук&format=json";
+	var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key=371f424b6c0bb12311c906a6da34260a&artist=Go_A&album=%23Ідиназвук&format=json";
 	var xmlhttp = new XMLHttpRequest();
 	xmlhttp.open("GET", url, true);
 	xmlhttp.send();
@@ -427,10 +427,6 @@ function albumsGoA() {
 			document.getElementById("album_1").innerHTML = show;
 			document.getElementById("album_2").innerHTML = "No second album to show!";
 			document.getElementById("album_3").innerHTML = "No third album to show!";
-			
-			/* Don't show other album info divs because the band has only released 1 album
-			document.getElementById("extraInfo3").style.border = "none";
-			document.getElementById("extraInfo4").style.border = "none";*/
 		} 	
 	}
 }
