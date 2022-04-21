@@ -432,5 +432,3 @@ function albumsGoA() {
 }
 
 
-//you have to redirect the user to https://www.last.fm/api/auth/?api_key=371f424b6c0bb12311c906a6da34260a
-// GET https://www.last.fm/api/auth/?api_key=371f424b6c0bb12311c906a6da34260a
